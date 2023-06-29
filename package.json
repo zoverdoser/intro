@@ -1,0 +1,36 @@
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "npm run clean && tsc",
+    "lint": "eslint src --ext .js,.ts --cache --fix",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "zoverdoser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoverdoser/intro/issues"
+  },
+  "homepage": "https://github.com/zoverdoser/intro#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.6"
+  }
+}
